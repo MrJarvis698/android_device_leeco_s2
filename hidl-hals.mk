@@ -65,8 +65,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2-service.clearkey
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.leeco_s2
+#PRODUCT_PACKAGES += \
+#    android.hardware.biometrics.fingerprint@2.1-service.leeco_s2
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
