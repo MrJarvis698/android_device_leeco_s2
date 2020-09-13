@@ -207,8 +207,8 @@ PRODUCT_PACKAGES += \
     librmnetctl
 
 # Device mapper verity
-PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
-$(call inherit-product, build/target/product/verity.mk)
+#PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
+#$(call inherit-product, build/target/product/verity.mk)
 
 # Display
 PRODUCT_PACKAGES += \
