@@ -247,7 +247,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbase_shim \
     libshims_camera \
-    libshims_ims
+    libshims_ims \
+    libprotobuf_shim
 
 # Light
 PRODUCT_PACKAGES += \

@@ -50,3 +50,15 @@ LOCAL_MODULE := fakelogprint
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_SHARED_LIBRARY)
+
+# protobuf_shim
+include $(CLEAR_VARS)
+
+LOCAL_SRC_FILES := libprotobuf_shim.cpp
+LOCAL_MODULE := libprotobuf_shim
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_SHARED_LIBRARIES := liblog
+LOCAL_VENDOR_MODULE := true
+
+include $(BUILD_SHARED_LIBRARY)
+
