@@ -212,6 +212,8 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # Input configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x06_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5x06_ts.kl \
