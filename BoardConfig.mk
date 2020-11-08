@@ -230,8 +230,7 @@ TARGET_LD_SHIM_LIBS := \
    /system/bin/mm-qcamera-daemon|libshims_camera.so \
    /system/lib64/hw/gxfingerprint.default.so|fakelogprint.so \
    /system/lib64/hw/fingerprint.vendor.msm8952.so|fakelogprint.so \
-   /system/bin/gx_fpd|fakelogprint.so \
-   /system/vendor/lib64/libwvhidl.so|libprotobuf_shim.so
+   /system/bin/gx_fpd|fakelogprint.so
 
 # Wifi
 BOARD_HAS_QCOM_WLAN			:= true
