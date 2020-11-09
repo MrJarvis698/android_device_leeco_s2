@@ -49,6 +49,15 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>vendor.qti.hardware.bluetooth_sar</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IBluetoothSar</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.bluetooth.audio</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -65,10 +74,7 @@
             <name>ICameraProvider</name>
             <instance>legacy/0</instance>
         </interface>
-        <interface>
-            <name>ICameraProvider</name>
-            <instance>external/0</instance>
-        </interface>
+        <fqname>@2.4::ICameraProvider/external/0</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.configstore</name>
@@ -314,7 +320,7 @@
     <hal format="hidl">
         <name>com.qualcomm.qti.imscmservice</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>2.2</version>
         <interface>
             <name>IImsCmService</name>
             <instance>qti.ims.connectionmanagerservice</instance>
