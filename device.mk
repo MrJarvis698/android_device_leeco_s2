@@ -37,8 +37,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.bluetooth.audio@2.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
-    android.hardware.soundtrigger@2.1-service \
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.soundtrigger@2.3-service \
     audio_amplifier.msm8952 \
     audio.a2dp.default \
     audio.bluetooth.default \
