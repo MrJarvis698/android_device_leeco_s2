@@ -217,7 +217,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
 TARGET_USES_OLD_MNC_FORMAT := true
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
 #include device/qcom/sepolicy-legacy-um/SEPolicy.mk
@@ -231,7 +230,10 @@ TARGET_LD_SHIM_LIBS := \
    /system/bin/mm-qcamera-daemon|libshims_camera.so \
    /system/lib64/hw/gxfingerprint.default.so|fakelogprint.so \
    /system/lib64/hw/fingerprint.vendor.msm8952.so|fakelogprint.so \
-   /system/bin/gx_fpd|fakelogprint.so
+   /system/bin/gx_fpd|fakelogprint.so \
+   /system/vendor/lib64/libsettings.so|/system/vendor/lib64/libprotobuf-cpp-full-v29.so \
+   /system/vendor/lib/libwvhidl.so|/system/vendor/lib/libprotobuf-cpp-lite-v29.so \
+   /system/vendor/lib64/libwvhidl.so|/system/vendor/lib64/libprotobuf-cpp-lite-v29.so
 
 # Wifi
 BOARD_HAS_QCOM_WLAN			:= true
